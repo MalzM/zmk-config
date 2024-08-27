@@ -1,0 +1,9 @@
+on:
+  push:
+    branches:
+      - "totem-dongle"
+  pull_request:
+    branches:
+      - "totem-dongle" 
+    paths:
+      - ".github/workflows/build.yaml"
