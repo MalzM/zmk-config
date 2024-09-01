@@ -62,7 +62,7 @@
                 &kp Q  &kp W       &kp F        &kp P         &kp B        &kp J    &kp L          &kp U         &kp Y       &kp APOS
                 &kp A  &hm LALT R  &hm LCTRL S  &hm LSHIFT T  &kp G        &kp M    &hm RSHFT N    &hm RCTRL E   &hm RALT I  &kp O
 &hm LEFT_GUI Q  &kp Z  &kp X       &kp C        &kp D         &kp V        &kp K    &kp H          &kp COMMA     &kp DOT     &kp SLASH  &hm RGUI APOSTROPHE
-                                   &kp ESCAPE   &kp SPACE     &lt 1 TAB    &kp RET  &kp BACKSPACE  &lt 2 DELETE
+                                   &kp ESCAPE   &lt 1 TAB     &kp SPACE    &kp RET  &kp BACKSPACE  &lt 2 DELETE
             >;
         };
 
