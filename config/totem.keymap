@@ -79,10 +79,10 @@
         SYM {
             label = "Symbols";
             bindings = <
-        &kp ESCAPE       &kp AMPERSAND  &kp ASTERISK   &kp PERCENT  &kp GRAVE      &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-        &kp EXCLAMATION  &kp AT_SIGN    &kp POUND      &kp DOLLAR   &kp PERCENT    &kp MINUS      &trans            &trans             &trans                &trans
-&trans  &kp CARET        &kp AMPERSAND  &kp BACKSLASH  &kp SLASH    &kp SQT        &kp EQUAL      &kp PLUS          &kp ASTERISK       &kp QUESTION          &kp EXCLAMATION        &trans
-                                        &trans         &trans       &trans         &trans         &trans            &trans
+        &kp ESCAPE       &kp AMPERSAND  &kp ASTERISK   &kp PERCENT  &kp GRAVE      &trans  &trans  &trans  &trans  &trans
+        &kp EXCLAMATION  &kp AT_SIGN    &kp POUND      &kp DOLLAR   &kp PERCENT    &trans  &trans  &trans  &trans  &trans
+&trans  &kp CARET        &kp AMPERSAND  &kp BACKSLASH  &kp SLASH    &kp SQT        &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans         &trans       &trans         &trans          &trans          &trans
             >;
         };
 
