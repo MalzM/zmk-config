@@ -88,10 +88,10 @@
 
         NUM {
             bindings = <
-        &kp LEFT_BRACKET  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans
-        &kp SEMICOLON     &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp EQUAL            &trans  &trans  &trans  &trans  &trans
-&trans  &kp GRAVE         &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp BACKSLASH        &trans  &trans  &trans  &trans  &trans  &trans
-                                     &kp PERIOD  &kp KP_N0  &kp MINUS            &trans  &trans  &trans
+        &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans
+        &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL            &trans  &trans  &trans  &trans  &trans
+&trans  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &trans  &trans  &trans  &trans  &trans  &trans
+                                        &kp PERIOD    &kp NUMBER_0  &kp MINUS            &trans  &trans  &trans
             >;
 
             label = "Numerical";
@@ -111,7 +111,7 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &kp R       &kp M             &kp H         &kp S         &kp V
         &trans  &trans  &trans  &trans  &trans    &kp E       &kp C_REWIND      &kp C_VOL_DN  &kp C_VOL_UP  &kp C_FF
-&trans  &trans  &trans  &trans  &trans  &trans    &kp O       &kp KP_N0         &kp KP_N1     &kp KP_N2     &kp KP_N3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp O       &kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
                         &trans  &trans  &trans    &kp C_STOP  &kp C_PLAY_PAUSE  &kp C_MUTE
             >;
 
