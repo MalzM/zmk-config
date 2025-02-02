@@ -69,20 +69,20 @@
         Nav {
             label = "Navigation";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp PG_DN  &kp UP    &kp PG_UP  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp CAPS
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans     &trans    &trans
-                        &trans  &trans  &trans    &trans  &trans     &trans
+        &kp ESCAPE  &trans  &trans  &trans  &trans    &kp PAGE_UP    &kp HOME  &kp UP    &kp END    &kp DEL
+        &trans      &trans  &trans  &trans  &trans    &kp TAB        &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER
+&trans  &kp CLCK    &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans    &trans    &trans     &trans     &trans
+                            &trans  &trans  &trans    &trans         &trans    &trans
             >;
         };
 
         Sym {
             label = "Symbols";
             bindings = <
-        &kp CARET        &kp AMPERSAND  &kp ASTERISK    &kp PERCENT    &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans
-        &kp EXCLAMATION  &kp AT_SIGN    &kp POUND       &kp DOLLAR     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans
-&trans  &kp GRAVE        &kp SQT        &kp UNDERSCORE  &kp BACKSLASH  &kp LEFT_BRACE          &kp RIGHT_BRACE        &trans  &trans  &trans  &trans  &trans
-                                        &trans          &trans         &trans                  &trans                 &trans  &trans
+        &kp ESCAPE       &kp AMPERSAND  &kp ASTERISK   &kp PERCENT  &kp GRAVE      &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+        &kp EXCLAMATION  &kp AT_SIGN    &kp POUND      &kp DOLLAR   &kp PERCENT    &kp MINUS      &trans            &trans             &trans                &trans
+&trans  &kp CARET        &kp AMPERSAND  &kp BACKSLASH  &kp SLASH    &kp SQT        &kp EQUAL      &kp PLUS          &kp ASTERISK       &kp QUESTION          &kp EXCLAMATION        &trans
+                                        &trans         &trans       &trans         &trans         &trans            &trans
             >;
         };
 
