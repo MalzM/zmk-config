@@ -133,7 +133,7 @@
             bindings = <
         &kp I  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans
         &kp J  &trans           &trans           &trans           &kp G              &trans  &trans  &trans  &trans  &trans
-&trans  &kp M  &trans           &trans           &trans           &kp B              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp M  &kp Y            &trans           &trans           &kp B              &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans           &trans           &trans             &trans  &trans  &trans
             >;
 
